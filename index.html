@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Tim Martin Plumbing, Liverpool | Sample design</title>
+<meta name="description" content="Sample website concept for Tim Martin Plumbing, Liverpool. Independent concept by LeadSky Limited.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Sora:wght@300;400;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js"}}</script>
+</head>
+<body>
+<div class="marker">Sample design by LeadSky Limited, independent concept</div>
+
+<!-- status strip + sheet index nav -->
+<header class="strip">
+  <a href="#top" class="mark"><span class="mk">TM</span><span>Tim Martin<br><em>Plumbing</em></span></a>
+  <div class="live" id="liveTop"><i class="dot"></i><span>Checking hours…</span></div>
+  <button class="sheetbtn" id="sheetBtn" aria-expanded="false" aria-controls="sheet"><span>Index</span><b class="sheetnum" id="sheetNum">SHEET 01/05</b></button>
+</header>
+<nav class="sheet" id="sheet" aria-label="Sections" hidden>
+  <div class="sheet-grid">
+    <a href="#top" data-n="01"><small>SHEET 01</small>Overview</a>
+    <a href="#work" data-n="02"><small>SHEET 02</small>The work</a>
+    <a href="#hours" data-n="03"><small>SHEET 03</small>Availability</a>
+    <a href="#word" data-n="04"><small>SHEET 04</small>Neighbours</a>
+    <a href="#ticket" data-n="05"><small>SHEET 05</small>Job ticket</a>
+  </div>
+  <p class="sheet-foot mono">Liverpool · Widnes · Runcorn · Prescot · Rainhill · St Helens · Hale</p>
+</nav>
+
+<main>
+<section class="hero" id="top" data-sheet="01">
+  <div class="hero-photo" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <canvas id="pipes" aria-label="3D copper pipe manifold, drawn as a blueprint, that turns solid copper as you scroll"></canvas>
+  <svg class="callouts" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M58 30 L70 18 L92 18"/><path d="M62 72 L76 84 L94 84"/>
+  </svg>
+  <div class="tag t1 mono">GATE VALVE · 22MM</div>
+  <div class="tag t2 mono">ELBOW 90° · COPPER</div>
+  <div class="hero-copy">
+    <p class="kicker mono">DWG NO. L-25 / LIVERPOOL / NEXTDOOR FAVE 2026</p>
+    <h1><span class="ln"><span>Time served.</span></span><span class="ln"><span class="cu">Liverpool</span></span><span class="ln"><span>plumbed.</span></span></h1>
+    <p class="lead">Over 25 years in all aspects of domestic plumbing. Leaks, taps, radiators, sinks and the small jobs other people turn down. <strong>Small jobs a pleasure.</strong></p>
+    <div class="ctas">
+      <a class="btn cu-btn" href="tel:+447496431395">Call +44 7496 431395</a>
+      <a class="btn ghost" href="#ticket">Write a job ticket</a>
+    </div>
+  </div>
+  <div class="spec mono" aria-hidden="true"><span>SCROLL</span><b id="specPct">WIREFRAME 0%</b></div>
+  <p class="illus mono">Illustrative photos</p>
+</section>
+
+<div class="award">
+  <div class="award-in mono">
+    <span>★ NEXTDOOR FAVE AWARD 2026</span><span>WON AGAIN, ALSO 2023</span><span>NEIGHBOURHOOD FAVOURITE IN 71 NEIGHBOURHOODS</span><span>25+ YEARS ON THE TOOLS</span>
+    <span aria-hidden="true">★ NEXTDOOR FAVE AWARD 2026</span><span aria-hidden="true">WON AGAIN, ALSO 2023</span><span aria-hidden="true">NEIGHBOURHOOD FAVOURITE IN 71 NEIGHBOURHOODS</span><span aria-hidden="true">25+ YEARS ON THE TOOLS</span>
+  </div>
+</div>
+
+<section class="work" id="work" data-sheet="02">
+  <header class="sec-h"><p class="mono">SHEET 02 / THE WORK</p><h2>All aspects of<br><span class="cu">domestic plumbing.</span></h2></header>
+  <div class="schematic">
+    <ol class="parts" id="parts">
+      <li><button aria-expanded="true"><span class="mono">A1</span>Leaks found and fixed</button><p>Dripping joints, weeping pipes and leaks under sinks, traced and sorted properly rather than patched.</p></li>
+      <li><button aria-expanded="false"><span class="mono">A2</span>Radiator replacement</button><p>Old radiators swapped out and new ones fitted, with the job tidied up afterwards.</p></li>
+      <li><button aria-expanded="false"><span class="mono">A3</span>Bathroom sinks and taps</button><p>New basins fitted, taps replaced and drips that keep you up at night stopped.</p></li>
+      <li><button aria-expanded="false"><span class="mono">A4</span>Outdoor taps</button><p>Outside taps installed for gardens, cars and bikes, neatly run and finished.</p></li>
+      <li><button aria-expanded="false"><span class="mono">A5</span>Small jobs, a pleasure</button><p>The little jobs that need a time served plumber. No job too small to ask about.</p></li>
+      <li><button aria-expanded="false"><span class="mono">A6</span>Trade and commercial work</button><p>Works alongside other local trades on commercial projects, clean and tidy throughout.</p></li>
+    </ol>
+    <figure class="plate">
+      <img src="img/home.webp" alt="Bright, tidy living room (illustrative stock photo)" loading="lazy" width="1600" height="1067">
+      <figcaption class="mono">PLATE 2.1 · THE HOME, LEFT TIDY · Illustrative photos</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="hours" id="hours" data-sheet="03">
+  <header class="sec-h"><p class="mono">SHEET 03 / AVAILABILITY</p><h2>Is Tim on the tools<br><span class="cu">right now?</span></h2></header>
+  <div class="hours-grid">
+    <div class="board">
+      <div class="board-now"><i class="dot big" id="bigDot"></i><div><p class="mono" id="ukTime">UK time --:--</p><h3 id="statusText">Checking…</h3><p id="statusSub"></p></div></div>
+      <ul class="week" id="week"></ul>
+      <p class="note mono">Hours as listed on Nextdoor. Outside hours, send a WhatsApp and Tim can reply when he is back.</p>
+    </div>
+    <div class="leak">
+      <p class="mono">WATER WHERE IT SHOULDN'T BE?</p>
+      <h3>While you wait</h3>
+      <ol class="steps" id="steps">
+        <li><label><input type="checkbox"> Turn off the stopcock (usually under the kitchen sink)</label></li>
+        <li><label><input type="checkbox"> Switch off electrics near the water if it is safe to</label></li>
+        <li><label><input type="checkbox"> Catch drips and move valuables</label></li>
+        <li><label><input type="checkbox"> Take a photo of the leak for Tim</label></li>
+      </ol>
+      <a class="btn cu-btn wide" id="leakBtn" href="https://wa.me/447496431395?text=Hi%20Tim%2C%20I%20have%20a%20leak">WhatsApp Tim about a leak</a>
+    </div>
+  </div>
+</section>
+
+<section class="word" id="word" data-sheet="04">
+  <header class="sec-h"><p class="mono">SHEET 04 / WHAT VERIFIED NEIGHBOURS SAY</p><h2>Word from<br><span class="cu">the street.</span></h2></header>
+  <div class="reviews">
+    <blockquote class="rv big">
+      <p>"From start to finish, the job was handled professionally, with clean and tidy workmanship, prompt responses, and excellent customer service and communication throughout. As a fellow tradesperson, I know how important it is to work with reliable professionals who take pride in their work and deliver a quality service. Tim certainly ticks all the boxes!"</p>
+      <footer class="mono">★★★★★ · ANDI, DEVINE NRG LIVERPOOL · NEXTDOOR</footer>
+    </blockquote>
+    <blockquote class="rv">
+      <p>"Thankyou to Tim for replacing a radiator for us, nice job done and tidied up afterwards."</p>
+      <footer class="mono">L. J. · LIVERPOOL · NEXTDOOR</footer>
+    </blockquote>
+    <div class="rv stat"><b data-count="71">0</b><span class="mono">neighbourhoods name Tim a Neighbourhood Favourite</span></div>
+  </div>
+</section>
+
+<section class="about">
+  <img src="img/workshop.webp" alt="Tradesperson at work with tools (illustrative stock photo)" loading="lazy" width="1600" height="1067">
+  <div class="about-copy">
+    <p class="mono">FROM TIM</p>
+    <p class="quote">"Hi, I'm a time served plumber with over 25 years experience in all aspects of domestic plumbing. Liverpool area. Small jobs a pleasure!"</p>
+    <p class="mono small">Illustrative photos</p>
+  </div>
+</section>
+
+<section class="ticket" id="ticket" data-sheet="05">
+  <header class="sec-h"><p class="mono">SHEET 05 / JOB TICKET</p><h2>Fill the ticket.<br><span class="cu">Send it on WhatsApp.</span></h2></header>
+  <form id="ticketForm" class="tform" novalidate>
+    <fieldset><legend class="mono">01 · WHAT NEEDS DOING</legend>
+      <div class="chips" id="jobChips">
+        <label><input type="radio" name="job" value="Leak" checked><span>Leak</span></label>
+        <label><input type="radio" name="job" value="Radiator"><span>Radiator</span></label>
+        <label><input type="radio" name="job" value="Sink or taps"><span>Sink or taps</span></label>
+        <label><input type="radio" name="job" value="Outdoor tap"><span>Outdoor tap</span></label>
+        <label><input type="radio" name="job" value="Small job"><span>Small job</span></label>
+        <label><input type="radio" name="job" value="Other"><span>Other</span></label>
+      </div>
+    </fieldset>
+    <fieldset class="row2"><legend class="mono">02 · YOU</legend>
+      <label>Name<input id="fName" required autocomplete="name"></label>
+      <label>Area or postcode<input id="fArea" required placeholder="e.g. Wavertree, L15"></label>
+    </fieldset>
+    <fieldset><legend class="mono">03 · DETAILS</legend>
+      <label>Tell Tim about the job<textarea id="fMsg" rows="3" placeholder="What's happening, and where in the house?"></textarea></label>
+      <label>Best day<select id="fDay"></select></label>
+    </fieldset>
+    <div class="tfoot">
+      <pre class="preview mono" id="preview" aria-live="polite"></pre>
+      <button class="btn cu-btn" type="submit">Send ticket on WhatsApp</button>
+      <p class="err" id="err" role="alert"></p>
+    </div>
+  </form>
+</section>
+</main>
+
+<footer class="foot">
+  <div><b class="bs">TIM MARTIN PLUMBING</b><p>Liverpool, England. <a href="tel:+447496431395">+44 7496 431395</a> · <a href="mailto:timmartin0@hotmail.com">timmartin0@hotmail.com</a></p></div>
+  <p class="small">Sample design by LeadSky Limited, independent concept. Not affiliated with or endorsed by Tim Martin Plumbing. Reviews quoted from Tim's public Nextdoor page. Photos are illustrative Unsplash stock. Not interested? Reply STOP and we will not contact you again.</p>
+</footer>
+
+<div class="mbar"><a href="tel:+447496431395">Call</a><a href="https://wa.me/447496431395">WhatsApp</a><a href="#ticket">Ticket</a></div>
+<script type="module" src="pipes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
